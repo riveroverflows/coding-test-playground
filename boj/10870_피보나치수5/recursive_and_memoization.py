@@ -1,4 +1,4 @@
-# 재귀 + 메모이제이션 테스트
+# 재귀 + 메모이제이션
 
 def recursive(n):
 	if array[n] != -1:
