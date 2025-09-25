@@ -14,7 +14,7 @@ def solution(s):
         else:
             other_count += 1
         if x_count == other_count:
-            s = s[i + 1:]
+            s = s[i + 1 :]
             answer += 1
             x_count = 0
             other_count = 0

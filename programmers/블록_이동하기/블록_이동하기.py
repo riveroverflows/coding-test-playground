@@ -60,12 +60,4 @@ def solution(board):
                 visited.add(next_position)
 
 
-print(
-    solution(board=[
-        [0, 0, 0, 1, 1],
-        [0, 0, 0, 1, 0],
-        [0, 1, 0, 1, 1],
-        [1, 1, 0, 0, 1],
-        [0, 0, 0, 0, 0]]
-    )
-)
+print(solution(board=[[0, 0, 0, 1, 1], [0, 0, 0, 1, 0], [0, 1, 0, 1, 1], [1, 1, 0, 0, 1], [0, 0, 0, 0, 0]]))

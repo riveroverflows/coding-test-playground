@@ -9,6 +9,7 @@ class Solution:
         for p in itertools.permutations(nums):
             answer.append(list(p))
         return answer
+
     # return list(itertools.permutations(nums))  이것도 성공함
 
 

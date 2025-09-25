@@ -5,7 +5,7 @@ class BrowserHistory:
 
     def visit(self, url: str) -> None:
         if len(self.history) - 1 > self.current:
-            self.history[self.current + 1:] = []
+            self.history[self.current + 1 :] = []
         self.history.append(url)
         self.current += 1
 

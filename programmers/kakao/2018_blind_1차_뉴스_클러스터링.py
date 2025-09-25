@@ -2,8 +2,8 @@ from math import trunc
 
 
 def solution(str1, str2):
-    separated_str1 = [str1[i:i + 2].lower() for i in range(len(str1) - 1) if str1[i:i + 2].isalpha()]
-    separated_str2 = [str2[i:i + 2].lower() for i in range(len(str2) - 1) if str2[i:i + 2].isalpha()]
+    separated_str1 = [str1[i : i + 2].lower() for i in range(len(str1) - 1) if str1[i : i + 2].isalpha()]
+    separated_str2 = [str2[i : i + 2].lower() for i in range(len(str2) - 1) if str2[i : i + 2].isalpha()]
     if not separated_str1 and not separated_str2:
         return 65536
 
