@@ -1,18 +1,17 @@
-[tool.poetry]
-name = "python-for-coding-test"
+[project]
+name = "coding-test-playground"
 version = "0.1.0"
-description = ""
-authors = ["river <bluuminn@gmail.com>"]
+description = "Algorithm coding test solutions"
+authors = [{ name = "river", email = "bluuminn@gmail.com" }]
+requires-python = ">=3.13"
 readme = "README.md"
+dependencies = ["black==24.3.0"]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-black = "24.3.0"
+[dependency-groups]
+dev = []
 
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+package = false
 
 [tool.black]
 line-length = 160
