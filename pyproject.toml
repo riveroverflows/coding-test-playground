@@ -2,12 +2,12 @@
 name = "python-for-coding-test"
 version = "0.1.0"
 description = ""
-authors = ["KIM_MINJU29 <kim_minju29@eland.co.kr>"]
+authors = ["river <bluuminn@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-black = "^23.12.1"
+black = "24.3.0"
 
 
 [build-system]
@@ -15,4 +15,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-line-length = 120
+line-length = 160
