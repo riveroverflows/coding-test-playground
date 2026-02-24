@@ -25,6 +25,9 @@ target/
 # JetBrains IDE
 .idea/
 
+# Serena
+.serena/
+
 # Unit test reports
 TEST*.xml
 
@@ -51,3 +54,14 @@ Thumbs.db
 .terraform*
 
 .venv
+
+# Gradle
+.gradle/
+build/
+out/
+
+# CLion
+cmake-build-*/
+
+# C++ compiled binaries
+*.out

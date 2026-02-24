@@ -1,0 +1,20 @@
+{
+  "cmd": [
+    "/Users/river/.local/share/mise/installs/python/3.8.5/bin/python3",
+    "-u",
+    "$file"
+  ],
+  "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.python",
+  "env": {
+    "PYTHONIOENCODING": "utf-8"
+  },
+  "word_wrap": true,
+  "working_dir": "/Users/river/Developer/playground/coding-test-playground",
+  "variants": [
+    {
+      "name": "Run",
+      "shell_cmd": "/Users/river/.local/share/mise/installs/python/3.8.5/bin/python3 -u \"${file}\" < input.txt"
+    }
+  ]
+}

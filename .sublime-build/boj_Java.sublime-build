@@ -1,0 +1,13 @@
+{
+  "shell_cmd": "./run_java.sh \"$file\" \"$file_path\" \"$file_base_name\"",
+  "file_regex": "^(.+\\.java):(\\d+): error: (.+)",
+  "selector": "source.java",
+  "working_dir": "/Users/river/Developer/playground/coding-test-playground",
+  "word_wrap": true,
+  "variants": [
+    {
+      "name": "Run",
+      "shell_cmd": "./run_java.sh \"$file\" \"$file_path\" \"$file_base_name\" < input.txt"
+    }
+  ]
+}

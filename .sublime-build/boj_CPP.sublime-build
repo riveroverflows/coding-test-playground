@@ -1,0 +1,13 @@
+{
+  "shell_cmd": "mkdir -p cmake-build-debug && clang++ -std=c++17 -O2 -Wno-unused-result -o \"cmake-build-debug/$file_base_name.out\" \"$file\" && \"cmake-build-debug/$file_base_name.out\"",
+  "file_regex": "^(.+?):(\\d+):(\\d+): (?:error|warning): (.+)",
+  "selector": "source.c++",
+  "working_dir": "/Users/river/Developer/playground/coding-test-playground",
+  "word_wrap": true,
+  "variants": [
+    {
+      "name": "Run",
+      "shell_cmd": "mkdir -p cmake-build-debug && clang++ -std=c++17 -O2 -Wno-unused-result -o \"cmake-build-debug/$file_base_name.out\" \"$file\" && \"cmake-build-debug/$file_base_name.out\" < input.txt"
+    }
+  ]
+}
