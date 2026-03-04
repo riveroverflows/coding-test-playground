@@ -25,6 +25,12 @@ target/
 # JetBrains IDE
 .idea/
 
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
 # Serena
 .serena/
 
@@ -65,3 +71,7 @@ cmake-build-*/
 
 # C++ compiled binaries
 *.out
+
+# Test input
+input.txt
+
