@@ -1,17 +1,22 @@
 """
 TC: O(n+m)
-for char in s: O(n)
-for char in t: O(m)
+if len(s) != len(t): O(1)
+ss = set(s): O(n)
+for c in ss: O(1)
+  s.count(c): O(n)
+  t.count(c): O(m)
 최종: O(n+m)
 
 SC: O(n)
-counter: 최악일 때 O(n)
-char: O(1)
+ss = set(s): 최악일 때 O(n)
+for c in ss: O(1)
 최종: O(n)
 
 풀이:
-입력값 s를 문자 별로 몇개씩 있는지 확인
-입력값 t를 순회하면서 입력값 s의 문자열과 반복 횟수가 동일한지 확인
+s와 t 길이가 다르면 anagram 아니므로 False로 early return
+set으로 s의 중복 문자열 제거
+set을 순회하면서 각 문자열이 s와 t에 몇개씩 있는지 확인 후 다르면 False로 early return
+early return 없이 순회가 끝났다면 anagram
 """
 
 from typing import *
@@ -20,30 +25,16 @@ import sys
 input = sys.stdin.readline
 
 
-
 def isAnagram(s: str, t: str) -> bool:
-    counter = dict()
-    for char in s:
-        if char == '\n':
-            continue
-        if char not in counter:
-            counter[char] = 0
-        counter[char] += 1
-
-    for char in t:
-        if char == '\n':
-            continue
-
-        if char not in counter:
+    if len(s) != len(t):
+        return False
+    
+    ss = set(s)
+    for c in ss:
+        if s.count(c) != t.count(c):
             return False
 
-        if counter[char] == 1:
-            counter.pop(char)
-            continue
-
-        counter[char] -= 1
-
-    return True if not counter else False
+    return True
 
 
 
