@@ -72,6 +72,7 @@ cmake-build-*/
 # C++ compiled binaries
 *.out
 
-# Test input
+# Test
 input.txt
 output.txt
+test.py
