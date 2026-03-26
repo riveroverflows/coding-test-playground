@@ -20,13 +20,13 @@ https://github.com/orgs/DaleStudy/projects/6/views/5
 
 ## Step 3. 완료 여부 확인
 
-`/Users/river/Developer/playground/leetcode-study`에서
+`~/Developer/playground/leetcode-study`에서
 각 문제 폴더에 `riveroverflows.py` 파일이 존재하는지 확인.
 
 ## Step 4. 결과 출력
 
 | 문제명 | 난이도 | 완료 여부 |
-|--------|--------|-----------|
-| ...    | ...    | ✅ / ❌   |
+|-----|-----|-------|
+| ... | ... | ✅ / ❌ |
 
 남은 문제 중 어떤 것을 풀지 사용자에게 물어볼 것.

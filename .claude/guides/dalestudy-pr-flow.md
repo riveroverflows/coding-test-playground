@@ -2,7 +2,7 @@
 
 ## 기본 정보
 
-- **fork repo 경로**: `/Users/river/Developer/playground/leetcode-study`
+- **fork repo 경로**: `~/Developer/playground/leetcode-study`
 - **upstream repo**: `DaleStudy/leetcode-study`
 - **GitHub 계정**: `riveroverflows`
 - **스터디 프로젝트**: `리트코드 스터디 7기` (project #26)
@@ -127,22 +127,22 @@ mutation {
 
 ### Week iteration ID (7기 기준)
 
-| Week | startDate | iterationId |
-|------|-----------|-------------|
-| Week 2 | 2026-03-08 | `1323841f` |
-| Week 3 | 2026-03-15 | `0f651524` |
-| Week 4 | 2026-03-22 | `59694a9d` |
-| Week 5 | 2026-03-29 | `d90b420b` |
-| Week 6 | 2026-04-05 | `66d56623` |
-| Week 7 | 2026-04-12 | `3d61fb64` |
-| Week 8 | 2026-04-19 | `13878a9e` |
-| Week 9 | 2026-04-26 | `95ba5f37` |
-| Week 10 | 2026-05-03 | `c37cc0d1` |
-| Week 11 | 2026-05-10 | `cfac1476` |
-| Week 12 | 2026-05-17 | `1d1d9d50` |
-| Week 13 | 2026-05-24 | `58b2e15c` |
-| Week 14 | 2026-05-31 | `585df32a` |
-| Week 15 | 2026-06-07 | `1f7e47dc` |
+| Week    | startDate  | iterationId |
+|---------|------------|-------------|
+| Week 2  | 2026-03-08 | `1323841f`  |
+| Week 3  | 2026-03-15 | `0f651524`  |
+| Week 4  | 2026-03-22 | `59694a9d`  |
+| Week 5  | 2026-03-29 | `d90b420b`  |
+| Week 6  | 2026-04-05 | `66d56623`  |
+| Week 7  | 2026-04-12 | `3d61fb64`  |
+| Week 8  | 2026-04-19 | `13878a9e`  |
+| Week 9  | 2026-04-26 | `95ba5f37`  |
+| Week 10 | 2026-05-03 | `c37cc0d1`  |
+| Week 11 | 2026-05-10 | `cfac1476`  |
+| Week 12 | 2026-05-17 | `1d1d9d50`  |
+| Week 13 | 2026-05-24 | `58b2e15c`  |
+| Week 14 | 2026-05-31 | `585df32a`  |
+| Week 15 | 2026-06-07 | `1f7e47dc`  |
 
 ---
 
@@ -209,10 +209,10 @@ gh pr edit {MY_PR_NUMBER} --repo DaleStudy/leetcode-study --body-file /tmp/pr_bo
 
 ## 핵심 ID 참고
 
-| 항목 | 값 |
-|------|-----|
-| 프로젝트 ID (7기) | `PVT_kwDOBijJi84A9whE` |
-| Week field ID | `PVTIF_lADOBijJi84A9whEzg-GxfM` |
-| Status field ID | `PVTSSF_lADOBijJi84A9whEzgxXXPk` |
-| Status: In Review | `47fc9ee4` |
-| Status: Completed | `98236657` |
+| 항목                | 값                                |
+|-------------------|----------------------------------|
+| 프로젝트 ID (7기)      | `PVT_kwDOBijJi84A9whE`           |
+| Week field ID     | `PVTIF_lADOBijJi84A9whEzg-GxfM`  |
+| Status field ID   | `PVTSSF_lADOBijJi84A9whEzgxXXPk` |
+| Status: In Review | `47fc9ee4`                       |
+| Status: Completed | `98236657`                       |
