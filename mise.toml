@@ -1,4 +1,4 @@
 [tools]
-java = "openjdk-14.0.2"
+java = "corretto-8"
 kotlin = "1.9.25"
-python = "3.8.5"
+python = "3.9.10"

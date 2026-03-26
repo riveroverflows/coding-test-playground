@@ -74,4 +74,4 @@ cmake-build-*/
 
 # Test input
 input.txt
-
+output.txt
