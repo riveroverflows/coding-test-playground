@@ -16,8 +16,8 @@
 
 | 언어     | IDE           | 버전                            |
 |--------|---------------|-------------------------------|
-| Python | PyCharm       | 3.8.5                         |
-| Java   | IntelliJ IDEA | OpenJDK 14.0.2                |
+| Python | PyCharm       | 3.9.10                        |
+| Java   | IntelliJ IDEA | Amazon Corretto 8             |
 | Kotlin | IntelliJ IDEA | 1.9.25 (language-version 1.6) |
 | C++    | CLion         | C++17 (clang++)               |
 
@@ -28,4 +28,4 @@ Sublime Text 빌드 설정은 `.sublime-build/` 디렉토리에 있습니다.
 각 솔루션은 stdin으로 입력을 받습니다. 프로젝트 루트의 `input.txt`에 테스트 입력을 작성하고:
 
 - **IDE**: Run Configuration에서 Redirect input from → `input.txt`
-    - **Sublime Text**: `Cmd+Shift+B` → Run (자동으로 `< input.txt` 적용)
+- **Sublime Text**: `Cmd+Shift+B` → Run (자동으로 `< input.txt` 적용)
