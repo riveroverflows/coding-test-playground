@@ -1,0 +1,8 @@
+{
+  "completions": {
+    "words_min_length": 1,
+  },
+  "preferred_line_length": 300,
+  "disable_ai": true,
+  "soft_wrap": "editor_width",
+}
