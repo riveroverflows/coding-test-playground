@@ -1,7 +1,7 @@
 """
 1 1 1 1
 l r       l + r == m
-  l 
+  l
 
 """
 
@@ -13,20 +13,20 @@ n, m = map(int, input().split())
 nums = list(map(int, input().split()))
 
 result = 0
-l, r = 0, 1
-while r <= n:
-    if l == r:
-        r += 1
-    curr = sum(nums[l:r])
-    print(f"curr: {curr} / left: {l} / right: {r}")
+left, right = 0, 1
+while right <= n:
+    if left == right:
+        right += 1
+    curr = sum(nums[left:right])
+    print(f"curr: {curr} / left: {left} / right: {right}")
     if curr == m:
         result += 1
-        l += 1
+        left += 1
         continue
     if curr < m:
-        r += 1
+        right += 1
         continue
     if curr > m:
-        l += 1
+        left += 1
 
 print(result)
